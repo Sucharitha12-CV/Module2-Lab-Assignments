@@ -1,0 +1,27 @@
+package com.cg.JavaLabFour;
+
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	AnnotationConfigApplicationContext ctx= 
+				new AnnotationConfigApplicationContext(Config.class);
+    	List<Employee> emp=(List<Employee>) ctx.getBean("empList");
+    	for(Employee e:emp) {
+    		System.out.print(e.toString());
+    		System.out.print(", ");
+    	}
+    }
+}

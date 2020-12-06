@@ -1,0 +1,5 @@
+package com.cg.ma.web;
+
+public class MovieController {
+
+}

@@ -1,0 +1,5 @@
+package com.cg.ma.repository;
+
+public interface IMovieRepository {
+
+}

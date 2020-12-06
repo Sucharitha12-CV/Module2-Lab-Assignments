@@ -1,0 +1,26 @@
+package com.cg.AnnoLabFour;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	
+    	ApplicationContext ctx=new ClassPathXmlApplicationContext("bean.xml");
+    	Config sbu=(Config)ctx.getBean(Config.class);
+    	sbu.getEmpList();
+    	for(Employee emp:sbu.getEmpList()) {
+    		System.out.print(emp.toString());
+    		System.out.print(", ");
+    	}
+    }
+}

@@ -1,0 +1,24 @@
+package com.cg.labAssignOnea.LabAssignOnea;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	/*BeanFactory context=
+		new XmlBeanFactory(new ClassPathResource("myBeans.xml"));
+
+*/
+AbstractApplicationContext context=
+		//new ClassPathXmlApplicationContext("myBeans.xml");
+		new FileSystemXmlApplicationContext("C:\\Users\\vidavid\\Desktop\\myBeans.xml");
+Employee employee=(Employee)context.getBean("employee");
+Employee employee1=(Employee)context.getBean("employee");
+
+System.out.println(employee);
+System.out.println(employee1);
+    }
+}

@@ -1,0 +1,60 @@
+package com.cg.ma.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
+
+@Entity
+public class Movie {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int movieId;
+	@NotBlank(message="name is required")
+	private String movieName;
+	@NotBlank(message="rating is required")
+	private int rating;
+	@NotBlank(message="category is required")
+	private String Category;
+	
+	int getMovieId() {
+		return movieId;
+	}
+
+	void setMovieId(int movieId) {
+		this.movieId = movieId;
+	}
+
+	public Movie(int movieId,String movieName, int rating, String category) {
+		super();
+		this.movieId=movieId;
+		this.movieName = movieName;
+		this.rating = rating;
+		Category = category;
+	}
+	
+	public Movie() {
+		super();
+	}
+
+	String getMovieName() {
+		return movieName;
+	}
+	void setMovieName(String movieName) {
+		this.movieName = movieName;
+	}
+	int getRating() {
+		return rating;
+	}
+	void setRating(int rating) {
+		this.rating = rating;
+	}
+	String getCategory() {
+		return Category;
+	}
+	void setCategory(String category) {
+		Category = category;
+	}
+
+}

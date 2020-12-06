@@ -1,0 +1,43 @@
+package com.cg.ma.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
+public class Movie {
+	@Id
+	private String movieName;
+	private int rating;
+	private String Category;
+	
+	public Movie(String movieName, int rating, String category) {
+		super();
+		this.movieName = movieName;
+		this.rating = rating;
+		Category = category;
+	}
+	
+	public Movie() {
+		super();
+	}
+
+	String getMovieName() {
+		return movieName;
+	}
+	void setMovieName(String movieName) {
+		this.movieName = movieName;
+	}
+	int getRating() {
+		return rating;
+	}
+	void setRating(int rating) {
+		this.rating = rating;
+	}
+	String getCategory() {
+		return Category;
+	}
+	void setCategory(String category) {
+		Category = category;
+	}
+
+}

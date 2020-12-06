@@ -1,0 +1,5 @@
+package com.cg.ma.entity;
+
+public class Movie {
+
+}

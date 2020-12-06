@@ -1,0 +1,6 @@
+package snippet;
+
+public class Snippet {
+	<constructor-arg value="Singh" name="lastName"/>
+}
+

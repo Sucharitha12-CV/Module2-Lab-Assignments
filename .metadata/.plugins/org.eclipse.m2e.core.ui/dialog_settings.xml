@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\DELL\Documents\MavenProjects\AnnoLabFour\src\main\java\com\cg\AnnoLabFour\App.java"/>
+			<item value="C:\Users\DELL\Documents\MavenProjects\AnnoLabTwo\src\main\java\com\cg\AnnoLabTwo\Employee.java"/>
+			<item value="C:\Users\DELL\Documents\MavenProjects\LabAssignTwoa\src\main\java\com\cg\labAssignTwoa\LabAssignTwoa\App.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.cg.Demo"/>
+			<item value="com.cg.JavaLabFour"/>
+			<item value="com.cg.JavaLabThree"/>
+			<item value="com.cg.JavaLabTwo"/>
+			<item value="com.cg.JavaLabOne"/>
+			<item value="com.cg.AnnoLabFour"/>
+			<item value="com.cg.AnnoLabThree"/>
+			<item value="com.cg.AnnoLabTwo"/>
+			<item value="com.cg.AnnoLabOne1"/>
+			<item value="com.cg.labAssignFoura.LabAssignFoura"/>
+		</list>
+		<list key="groupId">
+			<item value="com.cg"/>
+			<item value="com.cg.labAssignFoura"/>
+		</list>
+		<list key="artifactId">
+			<item value="Demo"/>
+			<item value="JavaLabFour"/>
+			<item value="JavaLabThree"/>
+			<item value="JavaLabTwo"/>
+			<item value="JavaLabOne"/>
+			<item value="AnnoLabFour"/>
+			<item value="AnnoLabThree"/>
+			<item value="AnnoLabTwo"/>
+			<item value="AnnoLabOne1"/>
+			<item value="LabAssignFoura"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

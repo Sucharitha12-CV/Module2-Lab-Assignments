@@ -1,0 +1,20 @@
+package com.cg.AnnoLabFour;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class EmployeeList {
+	@Value("#{empList}")
+	private List<Employee> empList;
+	List<Employee> getEmpList() {
+		return empList;
+	}
+	void setEmpList(List<Employee> empList) {
+		this.empList = empList;
+	}
+	public EmployeeList() {
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.cg.AnnoLabFour;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	
+    	ApplicationContext ctx=new ClassPathXmlApplicationContext("bean.xml");
+    	EmployeeList sbu=(EmployeeList)ctx.getBean("employeeList",EmployeeList.class);
+    	for(Employee emp:sbu.getEmpList()) {
+    		System.out.print(emp.toString());
+    		System.out.print(", ");
+    	}
+    }
+}
